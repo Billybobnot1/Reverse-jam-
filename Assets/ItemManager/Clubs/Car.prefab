@@ -44,6 +44,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cart
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: c457167d107043146b398de577fbe025, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: c457167d107043146b398de577fbe025, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
