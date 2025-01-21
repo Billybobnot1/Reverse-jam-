@@ -365,7 +365,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3796,8 +3796,8 @@ MonoBehaviour:
   maxPower: 10
   power: 2
   maxGoalSpeed: 4
-  Par: {fileID: 0}
-  Strokes: {fileID: 0}
+  Par: {fileID: 568508289}
+  Strokes: {fileID: 348379135}
   strokes: 0
   par: 4
 --- !u!1660057539 &9223372036854775807

@@ -26,17 +26,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene 3.unity
     guid: c2733670818d44571838403fbd0eeef2
-  - enabled: 0
-    path: Assets/Scenes/scene 3/Bill testing.unity
-    guid: 02d8ad89430808349ac8d63bf3897699
-  - enabled: 0
-    path: Assets/SelectScreen.unity
-    guid: 6647df8d1d97c44b09e6246825e1005d
-  - enabled: 1
-    path: Assets/Scenes/scene 4.unity
-    guid: 13b803935216d93438fa2a81620d55cf
   - enabled: 1
     path: Assets/Scenes/Menu 3.unity
     guid: eb3ba60c9f4a04430a9a247fa126d423
+  - enabled: 1
+    path: Assets/Scenes/scene 4.unity
+    guid: 13b803935216d93438fa2a81620d55cf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

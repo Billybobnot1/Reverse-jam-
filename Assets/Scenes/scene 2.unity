@@ -4729,8 +4729,8 @@ MonoBehaviour:
   maxPower: 10
   power: 2
   maxGoalSpeed: 4
-  Par: {fileID: 0}
-  Strokes: {fileID: 0}
+  Par: {fileID: 568508289}
+  Strokes: {fileID: 348379135}
   strokes: 0
   par: 4
 --- !u!1660057539 &9223372036854775807
