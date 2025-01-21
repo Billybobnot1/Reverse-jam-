@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Ball : MonoBehaviour { 
 
 // [Header ("References")] 
+public int nextscene;
 public Rigidbody2D rb; 
 public LineRenderer lr;
 
@@ -56,6 +58,8 @@ private void DragRelease(Vector2 pos) {
 
             rb.linearVelocity = Vector2.zero;
             gameObject.SetActive(false);
+
+            SceneManager.LoadScene (nextscene);
         }
 
     }
