@@ -4172,7 +4172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99da1a6cb8d0959448fc4e4fe6d0726f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextscene: 0
+  nextscene: 3
   rb: {fileID: 2131194731}
   lr: {fileID: 2131194729}
   maxPower: 10
