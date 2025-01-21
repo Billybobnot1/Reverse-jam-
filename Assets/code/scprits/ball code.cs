@@ -11,7 +11,7 @@ public LineRenderer lr;
 // [Header ("Attributes")] 
 public float maxPower = 10f; 
 public float power = 2f; 
-public float maxGoalSpeed = 4f; 
+public float maxGoalSpeed = 100f; 
 
 private bool isDragging; 
 private bool inHole; 
@@ -46,5 +46,23 @@ private void DragRelease(Vector2 pos) {
 
     rb.linearVelocity = Vector2.ClampMagnitude(dir * power, maxPower);
 }
+    private void CheckWinState(){ 
+        Debug.Log ("checked");
+        if (inHole) return;
+        //[1, 2] = 3;
+        if (rb.linearVelocity.magnitude <= maxGoalSpeed) { 
+            Debug.Log("test");
+            inHole = true; 
+
+            rb.linearVelocity = Vector2.zero;
+            gameObject.SetActive(false);
+        }
+
+    }
+    void OnTriggerEnter2D(Collider2D other) { 
+        if(other.tag=="Goal") CheckWinState ();
+
+    }
+    
 }
 
