@@ -20,6 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene 2.unity
     guid: 4b1402cc92cb9de4ba13dc7537b4cc42
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/Menu 2.unity
     guid: 6dd3352912a104498b7b0246df9528dc
@@ -32,5 +33,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SelectScreen.unity
     guid: 6647df8d1d97c44b09e6246825e1005d
+=======
+  - enabled: 0
+    path: Assets/scene 3/Bill testing.unity
+    guid: 02d8ad89430808349ac8d63bf3897699
+  - enabled: 1
+    path: Assets/scene 3/scene 3.unity
+    guid: cae369db8bef2bc48a8dd160af795ee3
+  - enabled: 1
+    path: Assets/Scenes/scene 4.unity
+    guid: 13b803935216d93438fa2a81620d55cf
+>>>>>>> fb29ee08eaf133476f178e6947001185a3b3e4b7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -3790,7 +3790,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99da1a6cb8d0959448fc4e4fe6d0726f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Scenes/scene 3.unity
   nextscene: 6
+=======
+  nextscene: 4
+>>>>>>> fb29ee08eaf133476f178e6947001185a3b3e4b7:Assets/scene 3/scene 3.unity
   rb: {fileID: 2131194731}
   lr: {fileID: 2131194729}
   maxPower: 10
